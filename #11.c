@@ -3,6 +3,7 @@
 int main() {
     int n , i;
     int s = 0;
+    int moyenne;
     printf("Entrer un nombre : ");
     scanf("%d" , &n);
     if (n == 0) {
@@ -11,7 +12,8 @@ int main() {
         for (i = 1 ; i <=  n ; i++) {
             s += i;
         }
-        printf("Le somme du nombre de 1 a %d est : %d." , n , s);
+        moyenne = s / n;
+        printf("Le somme du nombre de 1 a %d est : %d.\nSont moyenne est : %d" , n , s , moyenne);
     }
     return 0;
 }
