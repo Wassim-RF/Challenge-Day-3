@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main()
 {
     int inver = 0, num;
