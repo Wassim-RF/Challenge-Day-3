@@ -5,8 +5,10 @@ int main() {
     printf("Entrer un nombre : ");
     scanf("%d" , &num);
 
-    for ( i = 10; i >= 1; i--) {
-        printf("%d x %d = %d \n" , num , i , i * num);
-    }
+    for (i = 1 ; i <= num ; i++) {
+        if (num % i == 0) {
+            printf("%d  " , i) ;
+        }
+    } 
     return 0;
 }
