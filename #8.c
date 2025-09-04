@@ -4,7 +4,6 @@ int findMe( int arr[] , int n , int skip) {
     int left = 0 , right = n - 1;
     while (left <= right) {
         int med = (right + left) /2;
-
         if (arr[med] == skip) {
             return med;
         }
